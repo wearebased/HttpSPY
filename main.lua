@@ -8,6 +8,7 @@ if rconsoleprint then
     rconsoleprint("Https Spy is Loading . . .\n\n")
 end
 
+
 assert(syn or http, "Unsupported exploit (should support syn.request or http.request)")
 
 local options = ({...})[1] or { 
